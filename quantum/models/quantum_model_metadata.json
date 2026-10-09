@@ -1,0 +1,46 @@
+{
+  "model_name": "Quantum Kernel Classifier (Qiskit QSVC)",
+  "qiskit_version": "2.5.2",
+  "qiskit_machine_learning_version": "0.9.1",
+  "num_qubits": 4,
+  "quantum_features": [
+    "molecular_weight",
+    "logp",
+    "h_bond_donors",
+    "h_bond_acceptors"
+  ],
+  "circuit_summary": {
+    "num_qubits": 4,
+    "depth": 11,
+    "num_parameters": 4,
+    "gate_counts": {
+      "p": 7,
+      "cx": 6,
+      "h": 4
+    }
+  },
+  "scaler_mins": [
+    151.16,
+    -0.26,
+    0.0,
+    2.0
+  ],
+  "scaler_maxs": [
+    720.94,
+    5.3,
+    4.0,
+    9.0
+  ],
+  "classes": [
+    "Weak",
+    "Moderate",
+    "Strong"
+  ],
+  "evaluation_metrics": {
+    "accuracy": 0.8,
+    "precision": 0.2667,
+    "recall": 0.3333,
+    "f1_score": 0.2963
+  },
+  "disclaimer": "NOTICE: This model is an exploratory quantum-kernel-based machine learning prototype. It uses a 4-qubit parameterized ZZFeatureMap to classify binding strength into demo categories ('Strong', 'Moderate', 'Weak'). No claim of quantum advantage or superior clinical accuracy is made."
+}
