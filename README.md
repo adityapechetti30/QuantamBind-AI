@@ -1,3 +1,18 @@
+1. Novelty
+
+QuantumBind AI introduces a hybrid Classical AI + Quantum Machine Learning approach for protein-ligand binding prediction. XGBoost predicts numerical binding affinity (pKd), while Qiskit QSVC classifies binding strength as Strong, Moderate, or Weak. This combines complementary classical and quantum approaches within a single drug-discovery-oriented workflow.
+
+ 2. Level of Qiskit Programming
+
+The project uses Qiskit to implement a quantum machine learning pipeline, including quantum feature encoding, quantum kernels, and QSVC classification. Molecular features are transformed into a quantum-compatible representation and processed through a quantum kernel-based model, demonstrating practical integration of Qiskit with a classical machine-learning application.
+
+3. Measurable Results & Benchmarking
+
+QuantumBind AI provides measurable model outputs including predicted pKd values and binding-strength classifications. Classical XGBoost and quantum QSVC are evaluated using classification metrics such as accuracy and F1-score, where applicable. The system also presents model metrics and prediction results through an interactive dashboard for transparent comparison.
+
+4. Technical Quantum Advantage
+
+The quantum component explores quantum kernel methods for representing molecular feature relationships in a high-dimensional quantum feature space. This provides a technically different learning approach from conventional kernels. The project does not claim proven quantum advantage; instead, it demonstrates how Qiskit-based quantum ML can be integrated and benchmarked against classical methods.
 # QuantumBind AI ⚛️🧬
 
 Prototype for protein-ligand binding prediction combining **Classical Machine Learning (XGBoost)** and **Quantum Machine Learning (Qiskit QSVC)**.
